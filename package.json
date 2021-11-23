@@ -1,0 +1,14 @@
+{
+	"name": "discordBot",
+	"version": "1.0.0",
+	"description": "Announcer Discord Bot.",
+	"main": "./start.js",
+	"scripts": {
+		"start": "node start.js"
+	},
+	"dependencies": {
+		"discord.js": "github:hydrabolt/discord.js#master",
+		"node-schedule": "^0.5.1"
+	},
+	"type": "module"
+}
